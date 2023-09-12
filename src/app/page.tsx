@@ -12,9 +12,7 @@ import NavBar from "@/components/navBar";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center min-h-screen text-main-text">
-      <Header></Header>
-      <NavBar />
+    <main className="flex flex-col items-center min-h-fit text-main-text">
       <section className="flex flex-col justify-between xl:flex-row">
         <section>
           <Section_1_Fullstack/>
@@ -38,7 +36,6 @@ export default function Home() {
 
         </section>
       </section>
-      <Footer></Footer>
     </main>
   );
 }
