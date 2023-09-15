@@ -14,7 +14,7 @@ export default function Section_6_Weather(){
     return(
         <>
         <section className="max-w-[243px] border-2 border-black">
-            <Title styles="" text="Aiuda"></Title>
+            <Title styles="" text="Como ta el clima"></Title>
             <section className="flex flex-wrap">
             {data.map((a) => 
           <section key={"a"} className="w-[60px] h-[60px] m-2">

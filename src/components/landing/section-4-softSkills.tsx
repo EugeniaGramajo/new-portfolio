@@ -14,10 +14,10 @@ export default function Section_4_SoftSkills(){
     return(
         <>
         <section className="max-w-[243px] border-2 border-black">
-            <Title styles="" text="Aiuda"></Title>
+            <Title styles="" text="Soft skills"></Title>
             <section className="flex flex-wrap">
             {data.map((a) => 
-          <section key={"a"} className="w-[60px] h-[60px] m-2">
+          <section key={a} className="w-[60px] h-[60px] m-2">
             <Image src={a} alt="a" width={150} height={150} ></Image>
             <p>imagen</p>
           </section>
