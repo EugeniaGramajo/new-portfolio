@@ -13,7 +13,7 @@ export default function Section_4_SoftSkills(){
       ];
     return(
         <>
-        <section className="max-w-[243px] border-2 border-black">
+        <section className="max-w-[243px] h-[278px] border-2 border-black">
             <Title styles="" text="Soft skills"></Title>
             <section className="flex flex-wrap">
             {data.map((a) => 

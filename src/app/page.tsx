@@ -1,6 +1,4 @@
 "use client";
-import Footer from "@/components/footer";
-import { Header } from "@/components/header";
 import Section_1_Fullstack from "@/components/landing/section-1-Fullstack";
 import Section_2_Projects from "@/components/landing/section-2-Projects";
 import Section_3_Calendly from "@/components/landing/section-3-calendly";
@@ -8,7 +6,6 @@ import Section_4_SoftSkills from "@/components/landing/section-4-softSkills";
 import Section_5_TechSkills from "@/components/landing/section-5-techskills";
 import Section_6_Weather from "@/components/landing/section-6-weather";
 import Section_7_Playground from "@/components/landing/section-7-playground";
-import NavBar from "@/components/navBar";
 
 export default function Home() {
   return (

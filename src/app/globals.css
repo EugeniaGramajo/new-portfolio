@@ -17,14 +17,43 @@
 }
 
 @font-face {
-  font-family: 'TaylorGothic.otf';
-  src: url('../fonts/TaylorGothic.otf') format('opentype');
+  font-family: "TaylorGothic.otf";
+  src: url("../fonts/TaylorGothic.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
-.font-header{
-  font-family: 'TaylorGothic.otf';
+@font-face {
+  font-family: "AmericanCaptain.ttf";
+  src: url("../fonts/AmericanCaptain.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "linowrite.ttf";
+  src: url("../fonts/linowrite.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MechanicalMachine.ttf";
+  src: url("../fonts/MechanicalMachine.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-header {
+  font-family: "TaylorGothic.otf";
+}
+.font-header-section-1 {
+  font-family: "AmericanCaptain.ttf";
+}
+.font-text-des {
+  font-family: "linowrite.ttf";
+}
+.font-text-des-1{
+  font-family: "MechanicalMachine.ttf";
 }
 
 body {

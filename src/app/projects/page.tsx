@@ -1,7 +1,8 @@
+import Projects from "@/components/projects/projects";
 
 
-export default function Projects(){
+export default function ProjectsView(){
     return(
-        <>Aiuda</>
+       <Projects></Projects>
     )
 }

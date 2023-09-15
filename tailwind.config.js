@@ -12,6 +12,7 @@ module.exports = {
         secondary: "#C7A066",
       },
       fontFamily: {
+        header1: "AmericanCaptain.ttf"
       }
     },
   },

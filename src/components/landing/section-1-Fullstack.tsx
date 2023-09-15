@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Title from "../commons/title";
+import "../../app/globals.css"
 
 export default function Section_1_Fullstack() {
   return (
     <>
-      <div className="max-w-[588px] max-h-[425px] m-auto border-2 border-black">
-        <Title styles="text-center font-bold" text="Full-Stack Developer"></Title>
+      <div className="max-w-[588px] max-h-[425px] my-2 p-1 border-2 rounded-md border-black ">
+        <Title styles="text-center font-bold text-4xl  font-header-section-1" text="Full-Stack Developer"></Title>
         <section className="">
           <section className="flex">
             <Image
@@ -30,9 +31,7 @@ export default function Section_1_Fullstack() {
             quis blandit. Aenean velit arcu, cursus ut posuere accumsan,
             condimentum et magna. Quisque auctor diam a ante scelerisque, quis
             efficitur lectus ultricies. Aenean egestas neque nibh, vitae mollis
-            urna commodo nec. Aliquam semper rutrum justo eget faucibus. Vivamus
-            semper, augue sed auctor feugiat, mi risus suscipit nibh, a porta
-            magna leo id ligula. 
+            urna commodo nec. 
           </p>
         </section>
       </div>

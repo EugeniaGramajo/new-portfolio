@@ -15,7 +15,7 @@ export default function CurrentDate() {
     const formattedTime = currentDate.toLocaleTimeString('en-EN', { hour: '2-digit', minute: '2-digit' });
 
     return (
-        <div className='w-3/12 m-auto'>
+        <div className='w-3/12 m-auto text-center'>
             <div className="date">{formattedDate}</div>
             <div className="time">{formattedTime}</div>
         </div>

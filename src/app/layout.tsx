@@ -16,7 +16,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={"max-w-[1196px] m-auto"}>
+
+      <body className={"max-w-[1196px] m-auto text-black font-text-des-1 text-lg "}>
         <Header></Header>
         <Navbar></Navbar>
         {children}
