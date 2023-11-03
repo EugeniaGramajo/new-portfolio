@@ -5,11 +5,12 @@ import Image from "next/image";
 import "./../app/globals.css";
 import CurrentDate from "./date";
 import Price from "./price";
+import { env } from "@/env.config";
 
 export function Header() {
   const pathname = usePathname();
   return (
-    <div className="flex items-center justify-center my-2 text-main-text ">
+    <div className="flex items-center justify-center py-1 my-2 rounded-xl bg-blur/60 text-main-text ">
       <Price></Price>
       {pathname === "/" ? (
         <>

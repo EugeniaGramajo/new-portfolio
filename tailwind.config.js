@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       colors: {
         "main-text": "#2F210D",
-        secondary: "#C7A066",
+        "secondary": "#C7A066",
+        "blur":"#D9C8A5"
       },
       fontFamily: {
         header1: "AmericanCaptain.ttf"
