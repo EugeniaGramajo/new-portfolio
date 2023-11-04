@@ -6,12 +6,9 @@ import Section_4_SoftSkills from "@/components/landing/section-4-softSkills";
 import Section_5_TechSkills from "@/components/landing/section-5-techskills";
 import Section_6_Weather from "@/components/landing/section-6-weather";
 import Section_7_Playground from "@/components/landing/section-7-playground";
-import store from "@/redux/store";
-import { Provider } from "react-redux";
 
 export default function Home() {
   return (
-    <Provider store={store}>
     <main className="flex flex-col items-center min-h-fit text-main-text">
       <section className="flex flex-col justify-between xl:flex-row">
         <section>
@@ -37,6 +34,5 @@ export default function Home() {
         </section>
       </section>
     </main>
-    </Provider>
   );
 }
