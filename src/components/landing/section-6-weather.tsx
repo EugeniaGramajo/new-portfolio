@@ -11,7 +11,7 @@ export default function Section_6_Weather() {
   return (
     <>
       <section className="max-w-[243px] h-[210px] border-2 border-black">
-        <Title styles="" text="Como ta el clima"></Title>
+        <Title styles="" text="Weather"></Title>
         <section className="flex flex-col">
          <p>{location.city}</p> 
          <p>{location.country}</p> 

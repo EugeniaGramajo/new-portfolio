@@ -27,7 +27,7 @@ export default function Section_5_TechSkills() {
         </p>
         <section className="flex flex-wrap justify-center">
         {data.map((a) => 
-          <section key={"a"} className="w-20 h-20 m-2">
+          <section key={a+Math.random()} className="w-20 h-20 m-2">
             <Image src={a} alt="a" width={150} height={150} ></Image>
             <p>imagen</p>
           </section>

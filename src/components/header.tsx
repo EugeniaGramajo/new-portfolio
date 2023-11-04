@@ -10,7 +10,7 @@ import { env } from "@/env.config";
 export function Header() {
   const pathname = usePathname();
   return (
-    <div className="flex items-center justify-center py-1 my-2 rounded-xl bg-blur/60 text-main-text ">
+    <div className="flex items-center justify-center py-1 my-2 rounded-xl bg-blur/70 text-main-text ">
       <Price></Price>
       {pathname === "/" ? (
         <>

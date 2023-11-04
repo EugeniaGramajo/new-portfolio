@@ -17,8 +17,8 @@ export default function Section_4_SoftSkills(){
             <Title styles="" text="Soft skills"></Title>
             <section className="flex flex-wrap">
             {data.map((a) => 
-          <section key={a} className="w-[60px] h-[60px] m-2">
-            <Image src={a} alt="a" width={150} height={150} ></Image>
+          <section key={a+Math.random()} className="w-[60px] h-[60px] m-2">
+            <Image src={a} alt={a+"1"} width={150} height={150} ></Image>
             <p>imagen</p>
           </section>
         )}
