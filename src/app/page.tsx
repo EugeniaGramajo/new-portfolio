@@ -20,7 +20,7 @@ export default function Home() {
         <section className="flex flex-col">
           <Section_3_Calendly/>
           <hr className="my-1 border border-main-text"></hr>
-          <section className="flex">
+          <section className="flex justify-between">
             <Section_5_TechSkills/>
             <section>
             <Section_4_SoftSkills/>

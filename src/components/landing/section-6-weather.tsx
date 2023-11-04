@@ -10,7 +10,7 @@ export default function Section_6_Weather() {
   },[])
   return (
     <>
-      <section className="max-w-[243px] h-[210px] border-2 border-black">
+      <section className="max-w-[243px] mr-2 h-[210px] border-2 rounded-sm border-main-text/80">
         <Title styles="" text="Weather"></Title>
         <section className="flex flex-col">
          <p>{location.city}</p> 
@@ -18,7 +18,7 @@ export default function Section_6_Weather() {
          <p>{weather.current}</p>
          <p>{weather.max}</p> 
          <p>{weather.min}</p>
-         <Image src={weather.image} width={500} height={500} alt="text"></Image>
+         <Image src={weather.image} width={800} height={800} alt="text" className="w-20 h-20"></Image>
           </section>{" "}
       </section>
     </>

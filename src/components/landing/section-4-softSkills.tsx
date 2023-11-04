@@ -1,22 +1,14 @@
 import Image from "next/image";
 import Title from "../commons/title";
-
+import { softSkills } from "./data";
 
 export default function Section_4_SoftSkills(){
-    const data = [
-        "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-        "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-        "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-        "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-        "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-        "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-      ];
     return(
         <>
-        <section className="max-w-[243px] h-[278px] border-2 border-black">
+        <section className="max-w-[243px] mr-2 h-[278px] rounded-sm border-2 border-main-text/80">
             <Title styles="" text="Soft skills"></Title>
             <section className="flex flex-wrap">
-            {data.map((a) => 
+            {softSkills.map((a) => 
           <section key={a+Math.random()} className="w-[60px] h-[60px] m-2">
             <Image src={a} alt={a+"1"} width={150} height={150} ></Image>
             <p>imagen</p>

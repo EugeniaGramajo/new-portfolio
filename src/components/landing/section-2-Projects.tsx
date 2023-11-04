@@ -4,7 +4,7 @@ import Title from "../commons/title";
 export default function Section_2_Projects() {
   return (
     <>
-      <section className="max-w-[588px] border-2 border-black h-[357px]">
+      <section className="max-w-[588px] border-2 border-main-text/80 rounded-sm h-[357px]">
         <Title
           styles=""
           text="🎩 Technological Adventure: A Programming Pioneer 🎩 "

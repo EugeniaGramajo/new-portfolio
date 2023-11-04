@@ -5,7 +5,7 @@ import "../../app/globals.css"
 export default function Section_1_Fullstack() {
   return (
     <>
-      <div className="max-w-[588px] max-h-[425px] my-2 p-1 border-2 rounded-md border-black ">
+      <div className="max-w-[588px] max-h-[425px] my-2 p-1 border-2 rounded-sm border-main-text/80 ">
         <Title styles="text-center font-bold text-4xl  font-header-section-1" text="Full-Stack Developer"></Title>
         <section className="">
           <section className="flex">

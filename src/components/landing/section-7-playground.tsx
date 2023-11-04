@@ -11,7 +11,7 @@ export default function Section_7_Playground(){
       ];
     return(
         <>
-        <section className="max-w-[243px] h-[128px] border-2 border-black">
+        <section className="max-w-[243px] mr-2 h-[128px] border-2 rounded-sm border-main-text/80">
             <Title styles="" text="Aiuda"></Title>
             <section className="flex flex-wrap">
             {data.map((a) => 

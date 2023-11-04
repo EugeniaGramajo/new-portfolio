@@ -1,24 +1,12 @@
 import Image from "next/image";
 import Title from "../commons/title";
+import { techSkills } from "./data";
 
 export default function Section_5_TechSkills() {
-  const data = [
-    "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-    "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-    "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-    "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-    "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-    "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-    "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-    "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-    "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-    "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-    "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-    "https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2021/08/tiffany-rspca-millbrook-chobham-surrey.jpg?fit=2100%2C1575&ssl=1",
-  ];
+
   return (
     <>
-      <section className="max-w-[329px] border-2  border-black h-[642px]">
+      <section className="max-w-[329px] border-2 mx-2 rounded-sm border-main-text/80 h-[642px]">
         <Title styles="" text="Tech Skills"></Title>
         <p>
           !Extra, extra! Secure your seat on the time machine for an authentic
@@ -26,7 +14,7 @@ export default function Section_5_TechSkills() {
           rendezvous with me on our calendar.
         </p>
         <section className="flex flex-wrap justify-center">
-        {data.map((a) => 
+        {techSkills.map((a) => 
           <section key={a+Math.random()} className="w-20 h-20 m-2">
             <Image src={a} alt="a" width={150} height={150} ></Image>
             <p>imagen</p>
